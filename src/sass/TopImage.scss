@@ -1,0 +1,64 @@
+@import './_variables';
+@import './_grid.scss';
+
+.TopImg {
+    background: black;
+    min-height: 600px;
+    height: 100vh;
+    background: linear-gradient(135deg,rgba(0,0,0,.17) 0, #000 100%), url(https://images.pexels.com/photos/1268551/pexels-photo-1268551.jpeg?auto=format%2Ccompress&cs=tinysrgb&h=750&w=1260) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    position: relative;
+    .title{
+        padding: 200px;
+        text-align: right;
+        @media only screen and (max-width: 600px) {
+            padding: 50px;
+        } 
+        
+        .main-title{
+            text-transform: uppercase;
+            columns: white;
+            font-weight: 300;
+            font-size: 5rem;
+        }
+    }
+    h5{
+        margin-top: 120px;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 300;
+    }
+    .contact-info {
+        position: absolute;
+        bottom: 0;
+        font-family: $displayFont;
+        line-height: 2rem;
+        font-size: 1rem;
+        color: $paragraphColor;
+    strong{
+        font-weight: bold;
+        color: white;
+    }
+    .booking{
+        color: $paragraphColor;
+    }
+    h2{
+        font-size: 2.2rem;
+        color: white;
+    }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-title{
+        font-size: 4rem;
+    }
+    .TopImg{
+        height: 75vh;
+    }
+} 

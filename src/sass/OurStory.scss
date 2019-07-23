@@ -1,0 +1,67 @@
+@import './_grid.scss';
+@import './variables';
+@import './_reset.scss';
+
+.OurStory {
+    padding: 100px 0;
+    .container{
+        width: 80%;
+    }
+    h5{
+        color: $paragraphColor;
+        font-size: 1.1rem;
+        margin: .5rem 0 1rem;
+    }
+    h2 {
+        font-family: $rozhaFont;
+        font-size: 3rem;
+        text-transform: capitalize;
+        margin: .5rem 0 3rem;
+    }
+    p{
+        font-size: 1.2rem;
+        color: grey;
+        line-height: 1.8;
+        margin: .5rem 0 3rem;
+    }
+    .quote {
+        font-family: $regulaSans;
+        color: #000;
+        margin-bottom: 3rem;
+        strong{
+            color: $black;
+            font-weight: 700;
+        }
+    }
+    .res-btn {
+        padding: 20px 40px;
+        min-width: 200px;
+        display: inline-block;
+        border: 1px solid $black;
+        text-align: center;
+        text-decoration: none;
+        color: $black;
+        text-transform: uppercase;
+        font-family: $rozhaFont;
+        transition: all .4s ease-in-out;
+        &:hover {
+            background: $red;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .left-img {
+        margin-top: 150px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    
+} 
+

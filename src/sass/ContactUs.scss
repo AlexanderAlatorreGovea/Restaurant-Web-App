@@ -1,0 +1,79 @@
+@import './_grid.scss';
+@import './variables';
+
+.ContactUs {
+    padding: 100px 0;
+    background: $greyBG;
+    h2,
+    h5 {
+        text-align: center;
+    }
+    h5{
+        color: grey;
+        font-size: .8rem;
+        line-height: 2;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: $titleColor;
+        margin-top: 20px;
+    }
+    h2 {
+        font-family: $rozhaFont;
+        font-size: 3rem;
+        text-transform: capitalize;
+        margin: .5rem 0 3rem;
+    }
+    .box{
+        background: #fff;
+        padding: 20px;
+        .city{
+            font-family: $headerFont;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        p, h6{
+            font-size: .9rem;
+            font-weight: 600;
+            color: $titleColor;
+            line-height: 1.7rem;
+        }
+        h6{
+            color: $black;
+        }
+        .title{
+            font-family: $rozhaFont;
+        }
+        p{
+            font-weight: 400;
+            strong{
+                color: $black;
+                text-transform: capitalize;
+                font-weight: 600;
+            }
+            a{
+                color: $paragraphColor;
+                text-decoration: none;
+                font-weight: 600;
+                &:hover{
+                    color: $red;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact{
+        margin-bottom: 30px;
+    }
+} 
+
+@media only screen and (max-width: 750px) {
+    .contact{
+        margin-bottom: 30px;
+    }
+} 

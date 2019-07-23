@@ -1,0 +1,64 @@
+@import './_variables';
+@import './_grid.scss';
+
+.Reviews {
+    padding: 100px 0;
+    text-align: right;
+ 
+    img{
+        max-width: 600px;
+         width: 100%;
+        //position: absolute;
+    }
+
+    h5{
+        color: grey;
+        font-size: .8rem;
+        line-height: 2;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: $titleColor;
+        margin-top: 20px;
+    }
+    h4{
+        font-weight: 700;
+        margin-bottom: 1.8rem;
+    }
+    h2 {
+        font-family: $rozhaFont;
+        font-size: 3rem;
+        text-transform: capitalize;
+        margin: .5rem 0 3rem;
+    }
+    p{
+        font-size: .8rem;
+        color: grey;
+        line-height: 1.8;
+        margin: .5rem 0 3rem;
+    }
+    .author {
+        color: $paragraphColor;
+        font-weight: 300;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+        strong {
+            font-weight: 700;
+            color: $black;
+        }
+        em{
+            font-style: italic;
+        }
+    }
+    .arrows{
+        .arrow{
+            font-size: 1.5rem;
+            padding: 20px 10px;
+            cursor: pointer;
+            color: $paragraphColor;
+        }
+        .ready {
+            color: $black;
+        }
+    }
+}

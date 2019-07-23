@@ -1,0 +1,30 @@
+@import './_grid.scss';
+@import './variables';
+
+.RandomQuote{
+    padding: 240px 0;
+    background: linear-gradient(135deg,rgba(0,0,0,.17) 0, #000 100%),  url(https://images.pexels.com/photos/1345190/pexels-photo-1345190.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .container{
+    span, h1{
+        color: white;
+        font-family: $rozhaFont;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    h1{
+        font-size: 2.7rem;
+        max-width: 850px;
+        margin: 0 auto 50px;
+        line-height: 1.3;
+    }
+    span{
+        font-size: 2rem;
+        font-weight: 300;
+        display: block;
+    }
+}
+}

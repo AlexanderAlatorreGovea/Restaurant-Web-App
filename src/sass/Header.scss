@@ -1,0 +1,63 @@
+@import './_variables.scss';
+@import './_grid.scss';
+
+.Header {
+    position: absolute;
+    color: white;
+    font-family: $headerFont;
+    width: 100%;
+    //padding: 20px;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        display: inline-block;
+        width: 170px;
+        @media only screen and (max-width: 600px) {
+            width: 100px;
+        } 
+    }
+    nav {
+        display: inline-block;
+        float: right;
+        text-align: right;
+        font-size: 1.3rem;
+        @media only screen and (max-width: 425px) {
+            display: none;
+        } 
+    }
+    .header-tag {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+    .secondary-img {
+        background-image: linear-gradient(135deg,rgba(0,0,0,.17) 0, #000 100%),  no-repeat center center fixed; 
+        max-width: 250px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: white;
+        position: relative;
+        background: black;
+        height: 333px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-tag{
+        font-size: 1rem;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .header-tag{
+        font-size: 1rem;
+    }
+} 
+

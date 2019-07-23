@@ -1,0 +1,67 @@
+@import './_grid.scss';
+@import './variables';
+
+.Footer{
+    padding: 75px 0;
+    background: black;
+    width: 100%;
+    text-align: center;
+    nav{
+        display: inline-block;
+        margin: 0 auto 50px;
+        @media only screen and (max-width: 425px) {
+            margin: 0;
+        }
+        @media only screen and (max-width: 375px) {
+            margin: 0;
+        }
+        @media only screen and (max-width: 320px) {
+            margin: 0;
+        }
+        a{
+            color: white;
+            display: inline-block;
+            padding: 10px 20px 10px 0;
+            text-decoration: none;
+            @media only screen and (max-width: 425px) {
+                padding: 10px;
+            }
+            @media only screen and (max-width: 375px) {
+                padding: 10px;
+            }
+            @media only screen and (max-width: 320px) {
+                padding: 2px;
+            }
+            &:hover{
+                color: $red;
+            }
+        }
+    }
+    .social-media{
+        margin: 0;
+        padding: 0;
+        li{
+            display: inline-block;
+            flex-direction: row;
+            color: white;
+            a{
+                padding: 20px 20px 10px 0;
+                color: white;
+                &:hover{
+                    color: $red;
+                }
+            }
+        }
+    }
+    .copyright{
+        color: $titleColor;
+        padding-top: 50px;
+    }
+}
+
+.icon{
+    color: white;
+    &:hover{
+        color: $red;
+    }
+}

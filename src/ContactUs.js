@@ -5,8 +5,8 @@ const ContactUs = () => {
     return (
         <div className="ContactUs" id="ContactUs" >
             <div className="container">
-               <h5 className="comp-title">Contact Us</h5>
-               <h2>Delicious Flavors of Autum</h2>
+               <h5 className="comp-title wow fadeInUp">Contact Us</h5>
+               <h2 className="wow fadeInUp">Delicious Flavors of Autum</h2>
                <div className="box">
                    <div className="row">
 

@@ -10,11 +10,11 @@ const SpecialMenu = (props) => {
                 <div className="row boxes">
                 {props.globalState.map(info =>
                     <div className="col-md-4">
-                    <div className="box">
-                        <div className="box-img"  style={{background: `url("${info.img}") no-repeat center center`}}>
+                        <div className="box">
+                        <div className="box-img wow fadeInUp"  style={{background: `url("${info.img}") no-repeat center center`}}>
                             <div className="price-circle">$ {info.price}</div></div>
-                        <span className="title">{info.title}</span>
-                        <p className="details">
+                            <span className="title">{info.title}</span>
+                            <p className="details">
                             {info.description}
                             </p>
                         </div>

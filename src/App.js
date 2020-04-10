@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import WOW from "wowjs";
+
 import Header from './Header';
 import TopImage from './TopImage';
 import OurStory from './OurStory';
@@ -8,11 +10,10 @@ import ContactUs from './ContactUs';
 import Reviews from './Reviews';
 import Footer from './Footer'
 import globalState from './staticData/globalState';
+
 import './sass/main.scss';
 import './sass/_reset.scss';
 import './sass/_variables.scss';
-
-
 
 
 class App extends Component {
@@ -43,6 +44,11 @@ class App extends Component {
         }
     ]
     };
+  }
+  
+  componentDidMount() {
+    const wow = new WOW.WOW();
+    wow.init();
   }
   
   render() {

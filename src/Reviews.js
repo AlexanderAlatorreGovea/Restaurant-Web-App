@@ -9,7 +9,7 @@ class Reviews extends React.Component {
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 ">
-                        <img  className="wow fadeInDown" data-wow-duration="1s" src='https://s-i.huffpost.com/gen/1282658/images/o-FEMALE-CHEF-facebook.jpg'/>
+                        <img className="wow slideInLeft" src='https://s-i.huffpost.com/gen/1282658/images/o-FEMALE-CHEF-facebook.jpg'/>
                     </div>
                     <div className="col-md-4 wow slideInRight">
                         <h5 className="comp-title">Reviews</h5>

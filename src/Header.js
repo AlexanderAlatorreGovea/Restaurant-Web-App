@@ -8,7 +8,7 @@ const Header = (props) => {
         <div className="Header">
                 <img src={Logo} className="logo"/>
                 <span class="icon icon-bike"></span>
-                <nav>  
+                <nav className="fadeIn">  
                     <a className="header-tag"><Link
                         activeClass="active"
                         to="OurStory"

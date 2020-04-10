@@ -5,8 +5,8 @@ const TopImage = () => {
     return (
         <div className="TopImg" id="TopImg">
                 <div className="title">
-                    <h5>Welcome</h5>
-                    <h1 className="main-title">Prime Steak</h1>
+                <h5 className="animated fadeInUp">Welcome</h5>
+                    <h1 className="main-title animated fadeInUp">Prime Steak</h1>
                 </div>
                     <div className="contact-info">
                         <div>Book Table Directly</div>
